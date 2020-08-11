@@ -42,6 +42,7 @@ formElement.addEventListener('submit', (e) => {
         let index = inputElement.value - 1;
         selected = optionsElement.childNodes[index].textContent;
         render();
+        inputElement.value = "";
     }
 })
 
