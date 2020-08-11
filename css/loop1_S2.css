@@ -69,13 +69,14 @@ form button {
 .option {
     margin-right: .6rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .option.selected {
     color: #333333;
 }
 
-.content {
+#content {
     font-size: 1.2rem;
     color: black;
     font-weight: 400;
