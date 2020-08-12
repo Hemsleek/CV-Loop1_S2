@@ -36,11 +36,13 @@ optionsElement.addEventListener('click', e => {
 })
 formElement.addEventListener('submit', (e) => {
     e.preventDefault();
+    let index = inputElement.value - 1;
     if (inputElement.value < 1 || inputElement.value > 3) {
-        alert("Index is Invalid");
+        alert("Index " + index + " is Invalid");
+        inputElement.value = "";
+
 
     } else {
-        let index = inputElement.value - 1;
         selected = optionsElement.childNodes[index].textContent;
         render();
         inputElement.value = "";
