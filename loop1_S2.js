@@ -9,6 +9,7 @@ let selected = 'POSITIVE';
 
 
 // Selectors
+
 const optionsElement = document.getElementById("options");
 const contentElement = document.getElementById("content");
 const formElement = document.getElementById("form1");
@@ -20,11 +21,11 @@ function render() {
     optionsElement.innerHTML = "";
     options.forEach(option => {
         optionsElement.innerHTML +=
-            `<span class="option ${option== selected ? "selected" : ''}" data-rating='${option}'>${option}</span>`
+            `<span class="option ${option== selected ? "selected" : ''}" data-rating='${option}'>${option}</span>`;
 
     });
     let changeCase = selected.toLowerCase();
-    contentElement.innerText = changeCase.replace(changeCase[0], changeCase[0].toUpperCase()) + " content"
+    contentElement.innerText = changeCase.replace(changeCase[0], changeCase[0].toUpperCase()) + " content";
 
 }
 
