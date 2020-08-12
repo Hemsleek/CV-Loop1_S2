@@ -6,7 +6,7 @@ Step two is a UI implementation of progress navigation with HTML/CSS/Vanilla JS.
 
 clone or download this repository ,run the `loop1_S2.html` with favourite browser.
 ## Preview
-[Demo](<https://mb-fcc-portfolio.netlify.app/>)
+[Demo](<https://mb-progressnav.netlify.app/>)
 
 ## Prerequisite
 
