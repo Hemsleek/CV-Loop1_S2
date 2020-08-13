@@ -38,7 +38,7 @@ formElement.addEventListener('submit', (e) => {
     e.preventDefault();
     let index = inputElement.value - 1;
     if (inputElement.value < 1 || inputElement.value > 3) {
-        alert("Index " + index + " is Invalid");
+        alert(`Index ${index} is Invalid`);
         inputElement.value = "";
 
 
